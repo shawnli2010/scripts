@@ -95,7 +95,7 @@ def toMapItem(indexAndLocation):
   desc = random.choice(descriptions)
   return {
     'name': str(index + 1) + ' ' + name,
-    'type': itemType,
+    'mapItemType': itemType,
     'location': {
       'latitude': latitude,
       'longitude': longitude,
